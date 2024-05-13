@@ -1,0 +1,171 @@
+/* Import Roots font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roots+Text:wght@400;500;600;700&display=swap');
+
+/* Apply Roots font to all elements */
+body {
+  font-family: 'Roots Text', sans-serif;
+}
+
+/* Container styles */
+.section_5.wrapper {
+  text-align: center;
+  background-color: var(--stone-pink); /* Add purple background color */
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Flex container styles */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #333;
+  margin-bottom: 100px;
+}
+
+/* Button styles */
+.explore-button {
+  background-color: #920892;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+.explore-button:hover {
+  background-color: #6d156d;
+}
+
+/* Grid container styles */
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+}
+
+/* Border styles */
+.border {
+  border-width: 8.83px;
+  border-style: solid;
+  border-radius: 8.3px;
+  border-color: #D0BEBE;
+}
+
+.border-b {
+  border-bottom-width: 0.83px;
+  border-bottom-style: solid;
+  border-bottom-color: #DBEBE5;
+}
+
+/* Text styles */
+.text {
+  color: #038303;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text- {
+  color: #000000;
+}
+
+/* Font styles */
+.font-Satoshi500 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+}
+
+.font-Satoshi400 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+}
+
+.font-Satoshi580 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 580;
+}
+
+/* Additional paragraph styles */
+p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 16.599px;
+  margin-bottom: 10px;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adjust space between text on the left */
+.flex > *:not(:last-child) {
+  margin-right: 120px; /* Adjust as needed */
+}
+
+.object-cover {
+  height: 30px; /* Adjust as needed */
+  width: 30px; /* Adjust as needed */
+}
+
+/* Add space between buttons */
+.flex.items-center {
+  margin-top: 20px;
+}
+
+/* Adjust spacing between text */
+.flex.gap-1 {
+  gap: 10px;
+}
+
+/* Adjust spacing between text */
+.flex.gap-1 {
+  gap: 10px;
+}
+
+/* Make "VIBRATIQUE HUB" span and take up remaining space */
+.flex.items-center > p.flex {
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline; /* Align items on the baseline */
+  justify-content: space-between;
+}
+
+.flex.justify-center {
+  justify-content: center; /* Center horizontally */
+}
+
+/* Adjust the font size and leading */
+.text- {
+  font-size: 13.279px;
+}
+
+.leading-{
+  line-height: 16.599px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+  margin-top: 20px; /* Add margin-top to create space */
+}
